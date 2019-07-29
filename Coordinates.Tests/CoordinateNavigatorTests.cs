@@ -1,4 +1,5 @@
 using System;
+using Coordinates.Core;
 using Xunit;
 using FluentAssertions;
 

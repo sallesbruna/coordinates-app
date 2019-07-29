@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Coordinates
+namespace Coordinates.Core
 {
     public class Coordinate
     {
@@ -15,7 +15,7 @@ namespace Coordinates
 
         public override bool Equals(object obj)
         {
-            if ((obj == null) || !this.GetType().Equals(obj.GetType()))
+            if ((obj == null) || this.GetType() != obj.GetType())
             {
                 return false;
             }

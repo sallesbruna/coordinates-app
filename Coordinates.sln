@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Coordinates.Core", "Coordin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coordinates.Tests", "Coordinates.Tests\Coordinates.Tests.csproj", "{BB9202C1-B255-4F7D-8B1B-919CD2876A1B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coordinates.Console", "Coordinates.Console\Coordinates.Console.csproj", "{E711418D-E937-4E7A-9BEF-CC325020E743}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coordinates.WebApp", "Coordinates.WebApp\Coordinates.WebApp.csproj", "{F07D4D37-57A7-4340-B574-22EFD7A22B6D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{BB9202C1-B255-4F7D-8B1B-919CD2876A1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB9202C1-B255-4F7D-8B1B-919CD2876A1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB9202C1-B255-4F7D-8B1B-919CD2876A1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E711418D-E937-4E7A-9BEF-CC325020E743}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E711418D-E937-4E7A-9BEF-CC325020E743}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E711418D-E937-4E7A-9BEF-CC325020E743}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E711418D-E937-4E7A-9BEF-CC325020E743}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F07D4D37-57A7-4340-B574-22EFD7A22B6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F07D4D37-57A7-4340-B574-22EFD7A22B6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F07D4D37-57A7-4340-B574-22EFD7A22B6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F07D4D37-57A7-4340-B574-22EFD7A22B6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

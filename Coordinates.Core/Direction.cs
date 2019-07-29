@@ -1,4 +1,4 @@
-namespace Coordinates
+namespace Coordinates.Core
 {
     public enum Direction
     {
